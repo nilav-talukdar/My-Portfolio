@@ -1,0 +1,76 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="./css/output.css" rel="stylesheet">
+  <!-- Font Awesome CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- Title -->
+  <link rel="icon" type="image/jpg" href="./public/favicon.jpg" />
+  <title>My Portfolio</title>
+</head>
+<body>
+    <!-- Header starts -->
+    <header id="header">
+        <nav class="max-w-[1120px] mx-auto flex justify-between items-center py-11 xl:px-0 px-8">
+            <div>
+                <h3 class="text-2xl lg:text-3xl text-black font-normal after:content[''] after:border-2 flex flex-col after:opacity-0 header__logo cursor-pointer" id="logo">Nilav Talukdar</h3>
+            </div>
+            <div class="hidden md:flex">
+                <ul class="flex lg:gap-8 md:gap-4 text-center md:text-xl lg:text-2xl font-normal">
+                    <li class="group">
+                        <a href="#" class="flex flex-col after:scale-x-0 group-hover:after:scale-x-100 after:transition-all after:duration-200
+                        after:content[''] after:border-2 after:border-secondary group-hover:text-secondary transition duration-200 after:opacity-70">About</a>
+                    </li>
+                    <li class="group">
+                        <a href="#" class="flex flex-col after:scale-x-0 group-hover:after:scale-x-100 after:transition-all after:duration-200
+                        after:content[''] after:border-2 after:border-secondary group-hover:text-secondary transition duration-200 after:opacity-70">Experience</a>
+                    </li>
+                    <li class="group">
+                        <a href="#" class="flex flex-col after:scale-x-0 group-hover:after:scale-x-100 after:transition-all after:duration-200
+                        after:content[''] after:border-2 after:border-secondary group-hover:text-secondary transition duration-200 after:opacity-70">Projects</a>
+                </li>
+                    <li class="group">
+                        <a href="#" class="flex flex-col after:scale-x-0 group-hover:after:scale-x-100 after:transition-all after:duration-200
+                        after:content[''] after:border-2 after:opacity-70 after:border-secondary group-hover:text-secondary transition duration-200">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="flex md:hidden">
+                <span id="menu" class="flex items-end">
+                    <i class="fa-solid fa-bars text-2xl md:text-3xl cursor-pointer">
+                    </i>
+                </span>
+            </div>
+            <div class="fixed inset-0 bg-white h-screen w-screen flex flex-col justify-between -translate-y-full transition-all duration-700" id="slide-bar">
+                <div class="flex-1">
+                    <nav class="max-w-[1120px] mx-auto flex justify-between  items-center py-12 px-8">
+                    <h3 class="text-2xl md:text-3xl text-black   font-normal  header__logo cursor-pointer">Nilav Talukdar</h3>
+                        <div>
+                            <span id="cross">
+                                <i class="fa-solid fa-xmark text-2xl    cursor-pointer"></i>
+                            </span>
+                        </div>
+                    </nav>
+                </div>
+                
+
+                <div>
+                    <ul class="text-2xl text-primary flex flex-col items-center gap-4">
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Experience</a></li>
+                        <li><a href="#">Projects</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="flex-1"></div>
+            </div>
+        </nav>
+    </header>
+    <!-- Header ends -->
+
+    <!-- JavaScript -->
+    <script src="./js/script.js"></script>
+</body>
+</html>
