@@ -2,14 +2,18 @@
   "name": "portfolio",
   "version": "1.0.0",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
+  "author": "Nilav Talukdar",
   "license": "ISC",
-  "description": "",
+  "description": "Portfolio made using tailwind css",
   "devDependencies": {
     "tailwindcss": "^3.4.14"
+  },
+  "dependencies": {
+    "typewriter-effect": "^2.21.0"
   }
 }

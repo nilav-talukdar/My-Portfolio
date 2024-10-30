@@ -10,7 +10,8 @@
   <link rel="icon" type="image/jpg" href="./public/favicon.jpg" />
   <title>My Portfolio</title>
 </head>
-<body>
+<body class="overflow-x-hidden">
+    <main>
     <!-- Header starts -->
     <header id="header">
         <nav class="max-w-[1120px] mx-auto flex justify-between items-center py-11 xl:px-0 px-8">
@@ -43,10 +44,10 @@
                     </i>
                 </span>
             </div>
-            <div class="fixed inset-0 bg-white h-screen w-screen flex flex-col justify-between -translate-y-full transition-all duration-700" id="slide-bar">
+            <div class="fixed inset-0 z-10 h-screen w-screen flex flex-col justify-between -translate-y-full transition-all duration-700 bg-white" id="slide-bar">
                 <div class="flex-1">
                     <nav class="max-w-[1120px] mx-auto flex justify-between  items-center py-12 px-8">
-                    <h3 class="text-2xl md:text-3xl text-black   font-normal  header__logo cursor-pointer">Nilav Talukdar</h3>
+                    <h3 class="text-2xl md:text-3xl text-black font-normal  header__logo cursor-pointer">Nilav Talukdar</h3>
                         <div>
                             <span id="cross">
                                 <i class="fa-solid fa-xmark text-2xl    cursor-pointer"></i>
@@ -68,9 +69,55 @@
             </div>
         </nav>
     </header>
-    <!-- Header ends -->
+    <!-- header ends -->
+
+    <!-- Hero section starts -->
+    <section id="hero" class="mt-10 md:mt-0">
+        <div class="max-w-[1000px] mx-auto md:min-h-[calc(100vh-7.95rem)] min-h-fit flex flex-col md:flex-row items-center px-3">
+            <div class="md:flex-1 md:flex md:justify-center">
+                <img
+                    src="./assets/myself.jpg"
+                    alt="profile picture"
+                    class="max-w-72 md:max-w-96 h-auto object-contain rounded-full"
+                />
+            </div>
+            <div class="text-center flex flex-col gap-4 mt-6 md:flex-1 md:flex md:justify-center">
+                <p class="font-medium text-secondary">Hello, I'm</p>
+                <h2 class="text-3xl text-black font-medium md:text-5xl">Nilav Talukdar</h2>
+                <p id="typing-effect" class="text-2xl font-medium text-gray-500">Frontend Developer</p>
+                <div class="flex gap-4 justify-center">
+                    <button class="border-2 rounded-3xl text-sm py-3 px-3 border-black text-black font-medium">
+                        <a href="./public/your-file (4).pdf" download>Download CV</a>
+                    </button>
+                    <button class="border-2 rounded-3xl py-3 text-sm px-3 border-black text-white bg-black font-medium">
+                        <a href="#">Contact Info</a>
+                    </button>
+                </div>
+                <div class="flex justify-center gap-4 items-center">
+                    <a href="https://www.linkedin.com/in/nilav-talukdar-7a90a52ab/" target="__blank">
+                        <img
+                            src="./assets/Linkedin.png"
+                            class="h-10 w-10"
+                            alt="linkedin"
+                        />
+                    </a>
+                    <a href="https://github.com/nilav-talukdar" target="__blank" class="mb-1">
+                        <img
+                            src="./assets/github.png"
+                            class="h-14 w-14" 
+                            alt="linkedin"
+                        />
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Hero section ends -->
+    </main>
 
     <!-- JavaScript -->
     <script src="./js/script.js"></script>
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <script src="./js/type.js"></script>
 </body>
 </html>
