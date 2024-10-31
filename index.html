@@ -11,7 +11,7 @@
   <title>My Portfolio</title>
 </head>
 <body class="overflow-x-hidden">
-    <main>
+    <main class="bg-gradient-to-b from-purple-50 via-orange-50 to-transaprent">
     <!-- Header starts -->
     <header id="header">
         <nav class="max-w-[1120px] mx-auto flex justify-between items-center py-11 xl:px-0 px-8">
@@ -113,6 +113,231 @@
         </div>
     </section>
     <!-- Hero section ends -->
+
+    <!-- About section starts -->
+    <section id="about" class="mt-16 md:mt-4 max-w-[1200px] mx-auto px-4">
+        <div class="text-center">
+          <h5 class="text-base mb-2 text-secondary">Get to know more</h5>
+          <h4 class="text-4xl md:text-5xl text-black font-semibold">About Me</h4>  
+        </div>
+        <div class="w-full flex flex-col items-center mt-7 lg:flex-row">
+            <div class="max-w-96 max-h-96 px-14 sm:px-0 md:mr-10">
+                <img
+                  src="./assets/Untitled design.png"
+                  class="rounded-3xl h-full w-full object-contain"
+                />
+            </div>
+            <div class="w-full px-6 text-center mt-10 lg:mt-0 flex flex-col gap-6 sm:flex-row sm:gap-8">
+                <div class="flex flex-col gap-6">
+                    <div class="flex flex-col gap-6 sm:flex-row">
+                        <div class="border-2 flex flex-col gap-1 rounded-2xl border-gray-300 py-5 flex-1 items-center">
+                        <img
+                          src="./assets/Screenshot_2024-10-31_141932-removebg.png"
+                          alt="Assam Engineering College Coding Club"
+                          class="h-14"
+                        />
+                        <h4 class="text-xl font-semibold">Experience</h4>
+                        <p class="text-base text-secondary">1+ years</p>
+                        <p class="text-base text-secondary">Web Development</p>
+                        </div>
+                        <div class="border-2 flex flex-col gap-1 rounded-2xl border-gray-300 py-5 flex-1 items-center">
+                        <img
+                          src="./assets/AEC.png"
+                          alt="Assam Engineering College"
+                          class="h-14 w-14" 
+                        />
+                        <h4 class="text-xl font-semibold">Education</h4>
+                        <p class="text-base text-secondary">Bachelor's of Technology</p>
+                        <p class="text-base text-secondary">Electrical Engineering</p>
+                    </div>
+                </div>
+                <div class="text-justify md:text-start">
+                    <p class="text-secondary ">
+                        As a passionate MERN developer, I specialize in creating dynamic and responsive web applications. With a focus on delivering high-quality code, I enjoy tackling complex challenges and transforming ideas into user-friendly solutions. My experience spans the full stack, enabling me to build seamless interactions and efficient back-end services. I thrive on continuous learning and collaboration, always seeking to improve my skills and contribute to innovative projects.
+                    </p>
+                </div>
+                </div> 
+            </div>
+        </div>
+    </section>
+    <!-- About section ends -->
+
+    <!-- navigate to next section -->
+    <div class="flex justify-end max-w-[1435px]">
+        <span class="hidden md:flex mt-10">
+          <i class="fa-solid fa-angles-down text-3xl cursor-pointer hover:translate-y-2 transition-all duration-300"></i>  
+        </span>
+    </div>
+    <!-- navigate to next section -->
+
+    <!-- tech stack section starts-->
+    <section id="tech-stack" class="mt-16 md:mt-4 max-w-[1200px] mx-auto px-10 lg:px-4">
+        <div class="text-center">
+            <h5 class="text-base mb-2 text-secondary">Explore My</h5>
+            <h4 class="text-4xl md:text-5xl text-black font-semibold">Tech Stack</h4>
+        </div>
+        <div class="w-full grid grid-cols-1 grid-rows-1 sm:grid-rows-2 md:grid-cols-2 md:grid-rows-1 md:gap-x-8 mt-7 gap-y-8">
+            <div class="border-0 sm:border-2 rounded-2xl border-gray-300 py-0 sm:py-6">
+                <h2 class="text-lg font-medium text-gray-600 sm:text-2xl sm:font-medium hidden sm:block sm:text-center">Frontend Development</h2>
+                <div class="mt-8 grid-cols-2 grid-rows-6 grid gap-y-4 sm:grid-cols-2 sm:grid-rows-3 gap-x-4">
+                    <span class="place-items-center flex flex-col">
+                        <img
+                          src="./assets/HTML.webp"
+                          class="h-14 w-14 hover:scale-125 transition-all duration-500"
+                          alt="HTML"
+                        />
+                        <p class="text-lg text-secondary">HTML</p>
+                    </span>
+                    <span class="place-items-center flex flex-col">
+                        <img
+                          src="./assets/CSS.png"
+                          class="h-14 w-14 hover:scale-125 transition-all duration-500"
+                          alt="HTML"
+                        />
+                        <p class="text-lg text-secondary">CSS</p>
+                    </span>
+                    <span class="place-items-center flex flex-col">
+                        <img
+                          src="./assets/JavaScript.png"
+                          class="h-10 w-10 hover:scale-125 transition-all duration-500"
+                          alt="JavaScript"
+                        />
+                        <p class="text-lg text-secondary mt-2">JavaScript</p>
+                    </span>
+                    <span class="place-items-center flex flex-col mt-2">
+                        <img
+                          src="./assets/Tailwind.png"
+                          class="h-8 hover:scale-125 transition-all duration-500"
+                          alt="HTML"
+                        />
+                        <p class="text-lg text-secondary mt-2">Tailwind</p>
+                    </span>
+                    <span class="place-items-center flex flex-col">
+                        <img
+                          src="./assets/React.png"
+                          class="h-10 hover:scale-125 transition-all duration-500"
+                          alt="HTML"
+                        />
+                        <p class="text-lg text-secondary mt-2">React</p>
+                    </span>
+                    <span class="place-items-center flex flex-col">
+                        <img
+                          src="./assets/redux.svg"
+                          class="h-10 w-10 hover:scale-125 transition-all duration-500"
+                          alt="HTML"
+                        />
+                        <p class="text-lg text-secondary mt-2">Redux</p>
+                    </span>
+                    <span class="place-items-center flex flex-col sm:hidden">
+                        <img
+                          src="./assets/Node js.png"
+                          class="h-10 hover:scale-125 transition-all duration-500"
+                          alt="HTML"
+                        />
+                        <p class="text-lg text-secondary mt-2">Node Js</p>
+                    </span>
+                    <span class="place-items-center flex flex-col sm:hidden">
+                        <img
+                          src="./assets/Mongo DB.png"
+                          class="h-10 w-10 hover:scale-125 transition-all duration-500"
+                          alt="HTML"
+                        />
+                        <p class="text-lg text-secondary mt-2">Express</p>
+                    </span>
+                    <span class="place-items-center flex flex-col sm:hidden">
+                        <img
+                          src="./assets/MongoDB-Emblem.jpg"
+                          class="h-10 hover:scale-125 transition-all duration-500"
+                          alt="HTML"
+                        />
+                        <p class="text-lg text-secondary mt-2">Mongo DB</p>
+                    </span>
+                    <span class="place-items-center flex flex-col sm:hidden">
+                        <img
+                          src="./assets/mongoose.jpg"
+                          class="h-10 hover:scale-125 transition-all duration-500"
+                          alt="HTML"
+                        />
+                        <p class="text-lg text-secondary mt-2">Mongoose</p>
+                    </span>
+                    <span class="place-items-center flex flex-col sm:hidden">
+                        <img
+                          src="./assets/git.png"
+                          class="h-10 w-10 hover:scale-125 transition-all duration-500"
+                          alt="HTML"
+                        />
+                        <p class="text-lg text-secondary mt-2">Git</p>
+                    </span>
+                    <span class="place-items-center flex flex-col sm:hidden">
+                        <img
+                          src="./assets/Postman.svg"
+                          class="h-10 w-10 hover:scale-125 transition-all duration-500"
+                          alt="HTML"
+                        />
+                        <p class="text-lg text-secondary mt-2">Postman</p>
+                    </span>
+                    
+                </div>
+            </div>
+
+            <div class="border-0 sm:border-2 rounded-2xl border-gray-300 py-0 sm:py-6 hidden sm:block">
+                <h2 class="text-lg font-medium text-gray-600 sm:text-2xl sm:font-medium text-center">Backend Development</h2>
+                <div class="mt-8 grid-cols-1 grid-rows-6 sm:grid-cols-2 sm:grid-rows-3 gap-x-4 gap-y-4 grid">
+                    <span class="place-items-center flex flex-col">
+                        <img
+                          src="./assets/Node js.png"
+                          class="h-10 hover:scale-125 transition-all duration-500"
+                          alt="HTML"
+                        />
+                        <p class="text-lg text-secondary mt-2">Node Js</p>
+                    </span>
+                    <span class="place-items-center flex flex-col">
+                        <img
+                          src="./assets/Mongo DB.png"
+                          class="h-10 w-10 hover:scale-125 transition-all duration-500"
+                          alt="HTML"
+                        />
+                        <p class="text-lg text-secondary mt-2">Express</p>
+                    </span>
+                    <span class="place-items-center flex flex-col">
+                        <img
+                          src="./assets/MongoDB-Emblem.jpg"
+                          class="h-10 hover:scale-125 transition-all duration-500"
+                          alt="HTML"
+                        />
+                        <p class="text-lg text-secondary mt-2">Mongo DB</p>
+                    </span>
+                    <span class="place-items-center flex flex-col">
+                        <img
+                          src="./assets/mongoose.jpg"
+                          class="h-10 hover:scale-125 transition-all duration-500"
+                          alt="HTML"
+                        />
+                        <p class="text-lg text-secondary mt-2">Mongoose</p>
+                    </span>
+                    <span class="place-items-center flex flex-col">
+                        <img
+                          src="./assets/git.png"
+                          class="h-10 w-10 hover:scale-125 transition-all duration-500"
+                          alt="HTML"
+                        />
+                        <p class="text-lg text-secondary mt-2">Git</p>
+                    </span>
+                    <span class="place-items-center flex flex-col">
+                        <img
+                          src="./assets/Postman.svg"
+                          class="h-10 w-10 hover:scale-125 transition-all duration-500"
+                          alt="HTML"
+                        />
+                        <p class="text-lg text-secondary mt-2">Postman</p>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- tech stack section ends-->
+
+
     </main>
 
     <!-- JavaScript -->
