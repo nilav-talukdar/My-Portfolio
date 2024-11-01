@@ -11,9 +11,11 @@
   "license": "ISC",
   "description": "Portfolio made using tailwind css",
   "devDependencies": {
+    "daisyui": "^4.12.14",
     "tailwindcss": "^3.4.14"
   },
   "dependencies": {
+    "aos": "^2.3.4",
     "typewriter-effect": "^2.21.0"
   }
 }
